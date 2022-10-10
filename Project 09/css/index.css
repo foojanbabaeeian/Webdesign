@@ -1,0 +1,80 @@
+#box1 {
+  font-family: monospace;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 500;
+
+  width: 700px;
+  height: 40px;
+  background-color: rgb(173, 255, 47);
+
+
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(0, 255, 0);
+  border-radius: 40px;
+
+}
+
+#box2 {
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 65px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #00ffaa;
+
+  width: 200px;
+  height: 60px;
+  background-color: #ff004ccb;
+  border-radius: 8px;
+  border: 6px inset #ff00ff;
+}
+
+#box3 {
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 75px;
+  font-size: 23px;
+  font-weight: 500;
+  color: cornflowerblue;
+
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  border-radius: 50%;
+  border: 4px dashed yellow;
+}
+
+#box4{
+  width: 80px;
+  height: 80px;
+  background-color: rgb(0, 255, 115);
+  border-top-left-radius: 30px ;
+  border-end-end-radius: 30px;
+  border: 7px ridge rgb(0, 81, 255);
+}
+#box5{
+  font-family: sans-serif;
+  font-size: 16px;
+  color: rgba(128, 128, 128, 0.788);
+
+  width: 400px;
+  height: 35px;
+  background-color: rgba(255, 0, 0, 0.281);
+
+  border-left: 3px solid red;
+
+}
+
+#box6{
+  width: 80px;
+  height: 80px;
+  background-color: rgb(255, 196, 0);
+  border: 2px solid yellow;
+  border-radius: 60% 10px 60% 10px;
+
+}
+
+

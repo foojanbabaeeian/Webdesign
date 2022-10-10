@@ -1,0 +1,104 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Project 08</title>
+</head>
+
+<body style="font-family: sans-serif; background-color: rgba(0, 0, 0, 0.733); color: white;">
+
+    <form action="#" method="get" autocomplete="off" style="width: 700px;">
+        <fieldset>
+            <legend style="text-align:left;">Personal Information</legend>
+
+            <label for="Name">Full Name <span style="color: red;">*</span>:</label>
+            <input type="text" minlength="3" maxlength="20" placeholder="First Name" id="Name"
+                style="width: 200px; background-color: transparent; color: white; border-width: 1px; border-color: white; border-radius: 4px;"
+                name="nickName" autofocus>
+
+            <input type="text" minlength="3" maxlength="20" placeholder="Last Name" id="Name"
+                style="width:200px; background-color: transparent; color: white;border-width: 1px; border-color: white;border-radius: 4px;"
+                name="nickName" autofocus>
+            <p style="font-size:smaller; ">You Should Use At Least 3 Character And At Most 20 Character.</p>
+
+            <br>
+
+
+            <p required>Gender <span style="color: red;">*</span>:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="Other" name="gender" value="Other">
+            <label for="Other">Other</label>
+            <br><br>
+            <p required style="float: inline-end;">Age <span style="color: red;">*</span>:</p>
+            <input type="number" name="weight" min="18" max="200"
+                style="width:200px; background-color: transparent; color: white;border-width: 1px; border-color: white;border-radius: 4px; margin-right: auto; margin-left: auto; float:left;"> <br>
+            <p style="font-size:smaller; ">At Least You Have To Be 18 Years Old.</p>
+
+            <br>
+
+
+            <label for="Name">I Live In:</label>
+
+
+            <select name="country"
+                style="width:100px; background-color: transparent; color: white;border-width: 1px; border-color: white;border-radius: 4px; font-family: serif;">
+                <option >Choose Your Country</option>
+                <option>Austria</option>
+                <option>Belgium</option>
+                <option>Canada</option>
+                <option>Egypt</option>
+                <option>France</option>
+                <option selected value="iran">Iran</option>
+                <option>Spain</option>
+            </select>
+
+            <br><br>
+
+
+            <label>I Live With My:</label>
+            <input type="checkbox" id="Mother" name="LiveWith1" value="Mother">
+            <label for="Mother">Mother</label>
+            <input type="checkbox" id="Father" name="LiveWith2" value="Father">
+            <label for="Father">Father</label>
+            <input type="checkbox" id="Brother" name="LiveWith3">
+            <label for="Brother">Brother</label>
+            <input type="checkbox" id="Sister" name="LiveWith4">
+            <label for="Sister">Sister</label>
+            <input type="checkbox" id="Friend" name="LiveWith5">
+            <label for="Friend">Friend (Girl or Boy)</label>
+
+            <br><br>
+
+            <label for="email">Email Adress: </label>
+            <input type="email" placeholder="Example:someone@mailServer.com" id="eamil"
+                style="width: 300px; background-color: transparent; color: white; border-width: 1px; border-color: white;border-radius: 4px;"
+                name="mailAdress" autofocus>
+            <br><br>
+
+            <label for="Website">Website: </label>
+            <input type="url" placeholder="Example:https://www.example.com" id="email"
+                style="width: 300px; background-color: transparent; color: white; border-width: 1px; border-color: white;border-radius: 4px; margin-left: 36px;"
+                name="webAdress" autofocus>
+
+            <br><br>
+
+            <input type="submit" value="Send"
+                style="width: 70px; background-color: transparent; color: white; border-width: 1px; border-color: white;border-radius: 4px;">
+            <input type="reset" value="Clear"
+                style="width: 70px; background-color: transparent; color: white; border-width: 1px; border-color: white;border-radius: 4px;">
+
+            <br><br>
+
+            <p style="font-size: smaller;"><span style="color: red; margin-right: auto; margin-left: auto; float: left;">*</p></span>Neccesary items, You Should Fill Them
+            </p>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

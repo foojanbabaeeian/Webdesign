@@ -1,0 +1,33 @@
+#box1 {
+  width: 350px;
+  height: 100px;
+  background-color: rgb(128, 158, 128);
+  border: 30px solid red;
+
+  border-image-source: url("../images/border.jpg");
+  border-image-slice: 90;
+  border-image-width: 18px;
+  border-image-repeat: round;
+
+}
+
+#box2 {
+  width: 750px;
+  height: 150px;
+  background-color: pink;
+  border: 30px solid red;
+
+  border-image-source: url("../images/border2.jpg");
+  border-image-slice: 90;
+  border-image-width:18px;
+  border-image-repeat: round;
+
+}
+
+/* 
+border-image-repeat Property Has 4 Values:
+1.stretch (Default Value)
+2.repeat
+3.round
+4.space
+*/

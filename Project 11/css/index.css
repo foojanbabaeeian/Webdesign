@@ -1,0 +1,52 @@
+#box1 {
+  font-family: sans-serif;
+  text-align: center;
+
+  font-size: 16px;
+  font-weight: 500;
+
+  width: 340px;
+  height: 70px;
+  background-color: rgb(47, 255, 134);
+
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: darkred;
+}
+
+#box2 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+
+  width: 400px;
+  height: 60px;
+  background-color: rgb(255, 0, 55);
+  border: 4px outset pink;
+ 
+
+}
+#box4 {
+  width: 408px;
+  height: 68px;
+  border: 2px solid white;
+  outline: 4px inset pink;
+}
+
+#box3 {
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 100px;
+  font-size: 28px;
+  font-weight: 500;
+
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 8px solid rgb(255, 136, 0); 
+  outline: 6px solid rgb(255, 81, 0);
+}
+
+
